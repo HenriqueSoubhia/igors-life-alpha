@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor's life</title>
+    <link rel="shortcut icon" href="images/igor.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body id="darkmode">
+    <div id="body">
+        <div class="menu-status" id="menuStatus">
+            <div class="menu-top">
+                <div class="status-top">
+                    <p>Dinheiro:<span id="dinheiroContainer">100</span>✌</p>
+                    <p>Comida:<span id="comidaContainer">1</span>✌</p>
+                    <p>Fé:<span id="feContainer">0</span>✌</p>
+                    </p>
+                    <p>Força:1✌</p>
+                </div>
+                <div class="icon-menu">
+                    <img src="images/igor.jpg" id="icon">
+                </div>
+                <div class="map">
+                    <input type="button" id="btnCidade" value="Cidade✌">
+                    <input type="button" id="btnInventario" value="Inventario✌">
+                </div>
+            </div>
+            <div class="menu-bottom">
+                <div class="status-bottom">
+                    <p>Vida✌</p>
+                    <div class="progess-bar">
+                        <div class="progress" id="progressVida"></div>
+                    </div>
+                    <p>Fome✌</p>
+                    <div class="progess-bar">
+                        <div class="progress" id="progressFome"></div>
+                    </div>
+                    <p>Energia✌</p>
+                    <div class="progess-bar">
+                        <div class="progress" id="progressEnergia"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="inventarioMenu" id="inventarioMenu">
+            <div class="header">
+                <h4 class="headertext">Inventario✌</h4>
+                <input type="button" class="btnClose" value="x" id="btnCloseInv">
+            </div>
+            <div class="itemContainer" id="itemContainer">
+                <label class="linha" id="invpadrao">
+                    <h4>padrao</h4>
+                    <input type="radio" checked name="skin" id="rdbpadrao">
+                </label>
+                <label class="linha labelInv" id="invoculos">
+                    <h4>oculos</h4>
+                    <input type="radio" name="skin" id="rdboculos">
+                </label>
+                <label class="linha labelInv" id="invchapeu">
+                    <h4>chapeu</h4>
+                    <input type="radio" name="skin" id="rdbchapeu">
+                </label>
+                <label class="linha labelInv" id="invcartola">
+                    <h4>cartola</h4>
+                    <input type="radio" name="skin" id="rdbcartola">
+                </label>
+                <label class="linha labelInv" id="invbone">
+                    <h4>bone</h4>
+                    <input type="radio" name="skin" id="rdbbone">
+                </label>
+                <label class="linha labelInv" id="invmaquininha">
+                    <h4>cria</h4>
+                    <input type="radio" name="skin" id="rdbmaquininha">
+                </label>
+            </div>
+        </div>
+
+        <!-- <div class="padreMenu" style="left:20px;top:20px">
+            <div class="header">
+                <h4 class="headertext">padre✌</h4><input class="btnClose" id="btnClosePadre" value="x" type="button">
+            </div>
+            <div class="padreContent divBtns">
+                <img src="images/padre.jpg" class="iconPadre">
+                <input type="button" value="falar✌">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia corrupti nulla fuga eius velit non, animi deserunt </p>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="winMenu">
+        <div class="header win">
+            <div class="headertext">Parabens✌</div>
+        </div>
+        <h1>Parabens vc ganhou</h1>
+        <img src="images/ps5.jpg">
+    </div>
+
+    <div class="horaContainer">
+        <h1 id="horaContainer">7:00</h1>
+        <i class="bi bi-sun" id="horaIcon"></i>
+    </div>
+
+</body>
+
+</html>
